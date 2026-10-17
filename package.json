@@ -1,0 +1,9 @@
+{
+  "name": "longs-borneo-travel-tour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Longs Borneo Travel & Tour static website",
+  "scripts": {
+    "build": "node write-pages.cjs"
+  }
+}
