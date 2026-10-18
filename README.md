@@ -1,6 +1,6 @@
 # Longs Borneo Travel & Tour
 
-Complete website export, prepared 17 October 2026, including the latest logo, unique package photos, mobile hero and removal of Ready pop-ups.
+Complete website export, updated 18 October 2026, including registration number 1700755-P, the current slogan and contact number, unique package photos, mobile hero and removal of Ready pop-ups.
 
 ## Upload to GitHub
 
@@ -57,7 +57,7 @@ Then visit [the local preview](http://localhost:4173). Use a local server; openi
 
 ## Current website behavior
 
-- WhatsApp enquiries use **+60 14-529 2281**. The visitor reviews the enquiry and sends it in WhatsApp. The website does not process payments or confirm bookings.
+- WhatsApp enquiries use **+60138193899**. The visitor reviews the enquiry and sends it in WhatsApp. The website does not process payments or confirm bookings.
 - All package prices are per person. Existing sample-review disclosures remain as displayed on the website.
 - Photo attribution is in `dist/assets/credits.json` and the Photo credits dialog. Keep these credits and licence notices with the images.
 - Fonts load from Google Fonts; the photos and logo are served from this project.
@@ -66,6 +66,6 @@ Then visit [the local preview](http://localhost:4173). Use a local server; openi
 
 ## Export record
 
-Source revision: `ed45cc7a0f0dc7748e5a539c4167a2d331cea485`.
+Source revision: `767648ca62f17a64bb52f7c879d2b303b4717bb5`.
 
 This copy contains the website and its build/deployment files. The original Sites Git history, hosting identity, account settings and temporary work files are not part of the export.

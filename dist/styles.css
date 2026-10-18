@@ -405,3 +405,7 @@ footer .brand-logo{width:88px;height:88px;flex-basis:88px}
 }
 
 @media(max-width:900px){.hero-in-view .whatsapp-float{visibility:hidden;pointer-events:none}}
+
+/* Company registration is the third line of the shared header/footer wordmark. */
+.brand-registration{display:block;margin-top:4px;font-size:.65rem;font-weight:500;line-height:1.25;letter-spacing:.06em}
+@media(max-width:580px){.header .brand-registration{font-size:.6rem;margin-top:3px}}
