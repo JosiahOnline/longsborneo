@@ -1,6 +1,6 @@
 # Longs Borneo Travel & Tour
 
-Complete website export, updated 18 October 2026, including registration number 1700755-P, the current slogan and contact number, unique package photos, mobile hero and removal of Ready pop-ups.
+Complete website export, updated 23 October 2026, with 30 original AI illustrations, distinct package images, the original company logo, and Facebook/Instagram footer links.
 
 ## Upload to GitHub
 
@@ -55,17 +55,32 @@ python3 -m http.server 4173 --directory dist
 
 Then visit [the local preview](http://localhost:4173). Use a local server; opening the HTML file directly will not resolve the root-relative image and script paths.
 
+## Latest layout refinements
+
+The full footer, social links and floating WhatsApp button appear on the homepage. Package pages end with an enquiry button directly above copyright. The social panel uses compact responsive spacing. Story photo captions use emotional phrases while the section retains its sample-story disclosure. The temple image is a revised AI approximation of the real building’s broad roof and proportions.
+
+## Business address and operation hours
+
+The full office address appears above the operation hours wherever hours are displayed: homepage footer and closing section, package enquiry panel, and enquiry form.
+
+Lot 4, First Floor, Storey Shop Lot,
+Taman Suria Batu 6, Jalan Lintas Sibuga,
+90000 Sandakan, Sabah, Malaysia.
+
+Monday–Saturday, 9am–5pm (Malaysia Time).
+
 ## Current website behavior
 
 - WhatsApp enquiries use **+60138193899**. The visitor reviews the enquiry and sends it in WhatsApp. The website does not process payments or confirm bookings.
 - All package prices are per person. Existing sample-review disclosures remain as displayed on the website.
-- Photo attribution is in `dist/assets/credits.json` and the Photo credits dialog. Keep these credits and licence notices with the images.
+- All 30 travel images are original AI illustrations. Their prompts are in `image-prompts.json`, and image metadata is in `dist/assets/image-provenance.json`. The company logo remains the supplied original. Sample traveller stories are fictional and labelled.
+- Footer social links point to https://web.facebook.com/longsborneotours and https://www.instagram.com/longsborneo/. App opening depends on the visitor’s device settings.
 - Fonts load from Google Fonts; the photos and logo are served from this project.
 - Search indexing remains disabled, matching the current website. To enable it later, remove the `noindex,nofollow` meta tags from `write-pages.cjs`, change its generated `robots.txt` to allow crawling, and rebuild.
 - This is a standalone static export. Access restrictions are controlled by your hosting settings.
 
 ## Export record
 
-Source revision: `767648ca62f17a64bb52f7c879d2b303b4717bb5`.
+Source revision: `2eba6584db80675a1e28488aa9c18e68a3243aa5`.
 
 This copy contains the website and its build/deployment files. The original Sites Git history, hosting identity, account settings and temporary work files are not part of the export.

@@ -78,7 +78,7 @@ const PAYMENT_COPY = {
         "missing": "Cash collection location will be added before launch."
       }
     ],
-    "replyHours": "Replies: Monday–Saturday, 9am–5pm (Malaysia time)",
+    "replyHours": "Monday–Saturday, 9am–5pm (Malaysia Time)",
     "replyNote": "We usually reply during these hours.",
     "paymentPreviewIntro": "Review the payment options before continuing to your WhatsApp enquiry.",
     "paymentHelp": "Check availability and your final total before paying. Keep your receipt and share it on WhatsApp; our team will confirm your payment and booking.",
@@ -127,7 +127,7 @@ const PAYMENT_COPY = {
         "missing": "Lokasi kutipan tunai akan ditambah sebelum pelancaran."
       }
     ],
-    "replyHours": "Waktu balasan: Isnin–Sabtu, 9 pagi–5 petang (waktu Malaysia)",
+    "replyHours": "Isnin–Sabtu, 9 pagi–5 petang (waktu Malaysia)",
     "replyNote": "Kami biasanya membalas dalam waktu ini.",
     "paymentPreviewIntro": "Semak pilihan pembayaran sebelum meneruskan pertanyaan melalui WhatsApp.",
     "paymentHelp": "Semak ketersediaan dan jumlah akhir sebelum membayar. Simpan resit dan kongsikannya melalui WhatsApp; pasukan kami akan mengesahkan pembayaran dan tempahan anda.",
@@ -176,7 +176,7 @@ const PAYMENT_COPY = {
         "missing": "现金收款地点将在上线前添加。"
       }
     ],
-    "replyHours": "回复时间：周一至周六，上午9时至下午5时（马来西亚时间）",
+    "replyHours": "周一至周六，上午9时至下午5时（马来西亚时间）",
     "replyNote": "我们通常在上述时段回复。",
     "paymentPreviewIntro": "请先查看付款方式，再继续您的 WhatsApp 咨询。",
     "paymentHelp": "付款前，请确认名额及最终总额。保留收据并通过 WhatsApp 发送，我们的团队将核对款项并确认预订。",
@@ -215,9 +215,9 @@ window.REVIEW_COPY = {
   en: {
     eyebrow: 'SAMPLE TRAVELLER STORIES',
     heading: 'Small escapes. Happy memories.',
-    note: 'Fictional sample reviews for this design preview only. Stock photos are illustrative; these are not actual guests, customer feedback or endorsements.',
+    note: 'Fictional sample reviews for this design preview only. AI images are illustrative; these are not actual guests, customer feedback or endorsements.',
     cardSampleLabel: 'Sample review',
-    photoLabel: 'Illustrative photo',
+    photoLabel: 'Fictional traveller',
     previous: 'Previous sample review',
     next: 'Next sample review',
     regionLabel: 'Fictional sample traveller reviews',
@@ -227,9 +227,9 @@ window.REVIEW_COPY = {
   ms: {
     eyebrow: 'CONTOH CERITA PENGEMBARA',
     heading: 'Percutian ringkas. Kenangan indah.',
-    note: 'Ulasan contoh rekaan ini hanya untuk pratonton reka bentuk. Foto stok digunakan sebagai ilustrasi; ini bukan tetamu sebenar, maklum balas pelanggan atau sokongan terhadap perniagaan ini.',
+    note: 'Ulasan contoh rekaan ini hanya untuk pratonton reka bentuk. Imej AI digunakan sebagai ilustrasi; ini bukan tetamu sebenar, maklum balas pelanggan atau sokongan terhadap perniagaan ini.',
     cardSampleLabel: 'Ulasan contoh',
-    photoLabel: 'Foto ilustrasi',
+    photoLabel: 'Pengembara rekaan',
     previous: 'Ulasan contoh sebelumnya',
     next: 'Ulasan contoh seterusnya',
     regionLabel: 'Ulasan contoh pengembara rekaan',
@@ -239,9 +239,9 @@ window.REVIEW_COPY = {
   zh: {
     eyebrow: '示例旅人故事',
     heading: '短暂出走。留下美好。',
-    note: '这些虚构的示例评价仅用于设计预览。图库照片仅作示意，并非实际游客、真实客户反馈或对本公司的推荐。',
+    note: '这些虚构的示例评价仅用于设计预览。AI 图片仅作示意，并非实际游客、真实客户反馈或对本公司的推荐。',
     cardSampleLabel: '示例评价',
-    photoLabel: '示意照片',
+    photoLabel: '虚构旅人',
     previous: '上一条示例评价',
     next: '下一条示例评价',
     regionLabel: '虚构的旅人示例评价',
@@ -320,9 +320,9 @@ window.REVIEW_PHOTO_DATES = {
  'review-06':null,'review-07':null,'review-08':null,'review-09':null,'review-10':null
 };
 const SCRAPBOOK_COPY={
- en:{photoTaken:'Photo taken',datePending:'Date to confirm',memorySticker:'Good times!',photoAlt:'Illustrative stock photo of happy travellers'},
- ms:{photoTaken:'Tarikh foto diambil',datePending:'Tarikh belum disahkan',memorySticker:'Seronoknya!',photoAlt:'Foto stok ilustrasi pengembara yang gembira'},
- zh:{photoTaken:'拍摄日期',datePending:'日期待确认',memorySticker:'开心时光！',photoAlt:'快乐旅人的示意图库照片'}
+ en:{photoTaken:'Travel inspiration',datePending:'AI illustration',memorySticker:'Good times!',photoAlt:'AI illustration of fictional happy travellers'},
+ ms:{photoTaken:'Inspirasi perjalanan',datePending:'Ilustrasi AI',memorySticker:'Seronoknya!',photoAlt:'Ilustrasi AI pengembara rekaan yang gembira'},
+ zh:{photoTaken:'旅行灵感',datePending:'AI 示意图',memorySticker:'开心时光！',photoAlt:'虚构快乐旅人的 AI 示意图'}
 };
 for(const code of ['en','ms','zh'])Object.assign(window.REVIEW_COPY[code],SCRAPBOOK_COPY[code]);
 
@@ -335,3 +335,19 @@ const REVIEW_SECOND_PHOTOS={
 };
 for(const review of window.SAMPLE_REVIEWS)review.secondaryPhotoKey=REVIEW_SECOND_PHOTOS[review.id];
 for(const code of ['en','ms','zh'])window.REVIEW_COPY[code].inspirationLabel={en:'Trip inspiration',ms:'Inspirasi perjalanan',zh:'旅行灵感'}[code];
+
+// Emotional captions accompany the clearly labelled sample traveller stories.
+const REVIEW_FEELINGS = [
+ {en:['A sense of wonder','Closer to nature'],ms:['Rasa kagum','Lebih dekat dengan alam'],zh:['满心惊喜','亲近自然']},
+ {en:['Peaceful moments','Room to breathe'],ms:['Saat yang tenang','Ruang untuk berehat'],zh:['宁静时光','自在呼吸']},
+ {en:['Feeling reassured','Ready to explore'],ms:['Rasa lebih yakin','Sedia meneroka'],zh:['安心踏实','准备出发']},
+ {en:['Together is better','Happy family memories'],ms:['Indahnya bersama','Kenangan indah keluarga'],zh:['相聚更美好','温馨家庭回忆']},
+ {en:['A little escape','Time for each other'],ms:['Percutian ringkas','Masa untuk bersama'],zh:['短暂出走','专属彼此的时光']},
+ {en:['Shared laughter','Good company'],ms:['Gelak tawa bersama','Teman yang menyenangkan'],zh:['共享欢笑','好友相伴']},
+ {en:['Feeling refreshed','A lighter heart'],ms:['Rasa segar semula','Hati lebih lapang'],zh:['焕然一新','轻松自在']},
+ {en:['At ease','Carefree moments'],ms:['Rasa selesa','Saat tanpa kerisauan'],zh:['舒心惬意','无忧时光']},
+ {en:['Pure calm','Nature at our own pace'],ms:['Ketenangan sejati','Alam mengikut rentak kita'],zh:['纯粹宁静','慢享自然']},
+ {en:['A new adventure','Curious and excited'],ms:['Pengembaraan baharu','Teruja untuk meneroka'],zh:['全新冒险','好奇又期待']}
+];
+window.SAMPLE_REVIEWS.forEach((review,i)=>review.feelings=REVIEW_FEELINGS[i]);
+for(const code of ['en','ms','zh'])window.REVIEW_COPY[code].feelingLabel={en:'Borneo moments',ms:'Detik di Borneo',zh:'婆罗洲时光'}[code];

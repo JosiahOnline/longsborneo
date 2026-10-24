@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-23",
+  "tool": "Built-in image generation",
+  "images": [
+    {
+      "key": "sepilok",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 3:2 photograph for a Borneo wildlife travel website. Create one original editorial photograph, not a collage: a young Bornean orangutan with realistic orange-brown fur climbing a thick forest vine, looking curiously across the frame, lush Sepilok-like lowland rainforest leaves and soft sunlit bokeh, natural anatomy and rich earthy greens. Subject upper right with some calm dark foliage space on the left, suitable for both wide hero and cropped tour card. Natural travel photography, documentary colour, no exaggerated saturation, no captions, logos, watermarks, borders, or humans. This is an illustrative fictional scene, not a recreation of any existing photograph.",
+      "file": "dist/assets/ai-sepilok.webp"
+    },
+    {
+      "key": "sandakan-heritage-v2",
+      "prompt": "Use case: photorealistic-natural. Asset type: one landscape 3:2 travel illustration for Sandakan Heritage tour. Create a fresh original photorealistic architectural scene depicting the recognisable general form of Puu Jih Shih Temple in Sandakan: a broad low rectangular Chinese Buddhist main hall with off-white walls, red cylindrical columns, a VERY LARGE simple orange glazed-tile pitched roof, one lower orange wraparound eave, gently turned-up corners with restrained ridge ornament; open pillared verandah around the hall; white stone balustrades; broad pinkish tiled front terrace and wide straight staircase; dense green tropical forest rising behind. View from the front courtyard at human eye level, slight three-quarter angle, enough distance to see the whole large roof. Natural soft late-morning tropical light, calm architectural travel photography. The building should be broad and modest in height, with a large mostly plain tiled roof. Do not invent multiple stacked pagoda storeys, ornate towering dragon rooflines, a narrow dramatic stairway, a cliff-side palace, a sea view or another city. Original composition, no reference photograph copying, no legible text, no people needed, no logos or watermark. This is an AI illustration approximating a real landmark, not a documentary photograph.",
+      "file": "dist/assets/ai-sandakan-heritage-v2.webp"
+    },
+    {
+      "key": "lb03-labuk-bay",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. An adult male proboscis monkey with a long pendulous nose and reddish brown fur sits sideways on a mossy horizontal branch in a Borneo mangrove forest. One hand rests naturally on the branch, attentive profile, medium telephoto wildlife portrait, blurred green leaves, warm morning light. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb03-labuk-bay.webp"
+    },
+    {
+      "key": "lb04-rdc-canopy",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. An empty rainforest canopy suspension walkway winding among towering dipterocarp trees in Sabah-like tropical forest, steel cable mesh rails and wooden boards, elevated perspective with layered forest canopy, filtered morning sunlight. Natural plausible structure, editorial travel landscape. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb04-rdc-canopy.webp"
+    },
+    {
+      "key": "lb05-mangroves",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A quiet tropical mangrove creek at blue hour with sunset peach on the horizon, aerial roots on the bank, dark foliage reflected in still water, a sparse handful of subtle firefly glimmers along the vegetation, tranquil natural habitat, wide river-level composition. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb05-mangroves.webp"
+    },
+    {
+      "key": "lb06-kinabatangan-cruise",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A small open river excursion boat with a guide and two adult travellers wearing life jackets gliding on a broad muddy Bornean river, viewed from another boat behind and to the side. Lush jungle banks, late afternoon golden light, expansive water and sky, realistic modest tourism. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb06-kinabatangan-cruise.webp"
+    },
+    {
+      "key": "selingan",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A serene tropical turtle-island beach at dawn, soft waves roll onto pale coral sand, a gentle curve of shore, coconut palms at the far right, warm sun near the sea horizon and faint turtle tracks on the sand. Wide coastal landscape, calm natural colour, fictional Selingan-inspired habitat. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-selingan.webp"
+    },
+    {
+      "key": "lb08-kinabatangan-wildlife",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A female proboscis monkey and small juvenile on separate branches above a rainforest river in Sabah-like habitat, realistic noses and long tails clearly visible, wet leaves, dappled daylight, wide environmental wildlife photograph with both animals small enough to show habitat. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb08-kinabatangan-wildlife.webp"
+    },
+    {
+      "key": "lb09-kinabatangan-forest",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A Bornean pygmy elephant emerging at a tropical riverbank, body and small rounded ears clearly visible, water around its feet, dense riverside jungle and reflected foliage, humid soft afternoon light. Respectful distant wildlife photography from a riverboat, no people in frame. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb09-kinabatangan-forest.webp"
+    },
+    {
+      "key": "lb10-sun-bear",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A Malayan sun bear with a distinct pale crescent chest patch standing naturally on a fallen rainforest log, short sleek black fur, warm green leaf bokeh, candid wildlife portrait at eye level. Accurate bear anatomy, soft forest daylight, no artificial objects. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb10-sun-bear.webp"
+    },
+    {
+      "key": "lb11-sepilok-orangutan",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. An adult female Bornean orangutan with her baby nestled against her side, seated on the broad fork of a rainforest tree. Rich long auburn fur, thoughtful natural expressions, green lianas and dappled overcast light, intimate but respectfully distant telephoto composition. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-lb11-sepilok-orangutan.webp"
+    },
+    {
+      "key": "river",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A wide peaceful lowland Borneo river curving between lush mangrove and rainforest banks, early golden morning mist lifted just above the water, reflected tall trees and open sky, photographed at water level. Spacious atmospheric scenic travel landscape, no boats or buildings. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-river.webp"
+    },
+    {
+      "key": "poring",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A small tropical waterfall tumbling over dark rounded rocks into a clear forest pool, lush Sabah-like rainforest with ferns and moss, sun filtering through leaves, realistic water movement, inviting nature travel composition. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-poring.webp"
+    },
+    {
+      "key": "rainforest",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A layered Bornean dipterocarp rainforest with enormous buttress roots in the foreground, tall emergent trees and ferns, a soft shaft of morning sunlight and humid green atmosphere, natural documentary forest landscape from the ground. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-rainforest.webp"
+    },
+    {
+      "key": "semporna",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. Elevated panoramic view of tropical emerald karst islands surrounding a turquoise lagoon, Sabah marine-park-inspired landscape, coral patches visible through clear shallows, hazy blue sea horizon and scattered clouds, original fictional geography, natural travel photography. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-semporna.webp"
+    },
+    {
+      "key": "kiulu",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A clear shallow tropical river runs over pebbles under a simple rural footbridge in green rolling Sabah-like hills, a tiny rafting group wearing helmets and life jackets far downstream, soft sunny afternoon, wide serene travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-kiulu.webp"
+    },
+    {
+      "key": "island",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. An unoccupied pale sand beach on a tropical Borneo-like island, turquoise water, leaning palm trees and broad green tropical leaves framing one side, scattered small clouds, relaxed bright midday editorial travel photograph, realistic colours. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-island.webp"
+    },
+    {
+      "key": "kudat",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A rugged tropical headland with dark weathered rocks, foamy blue-green waves and coastal grass, sweeping sea horizon beneath dramatic soft clouds, northern Borneo-inspired coastline in late afternoon, original natural landscape composition. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-kudat.webp"
+    },
+    {
+      "key": "seascape",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A tropical island shoreline at golden sunset, coral sand and dark smooth rocks in foreground, small waves catching amber light, distant forested islet silhouettes and layered sky, tranquil wide editorial landscape. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-seascape.webp"
+    },
+    {
+      "key": "kinabalu",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A majestic granite mountain massif inspired by Mount Kinabalu above misty tropical foothills, jagged rock summit lit by the first warm dawn light, layers of deep green hills, subtle morning haze, wide realistic mountain travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-kinabalu.webp"
+    },
+    {
+      "key": "review-01",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional young adult Southeast Asian woman smiling naturally on a tropical forest trail, simple olive hiking shirt, small daypack, candid three-quarter portrait, lush fern background, soft daylight, anatomically accurate hands and face, welcoming travel mood. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-01.webp"
+    },
+    {
+      "key": "review-02",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. Three fictional adult friends of diverse Asian backgrounds pausing together on a rainforest boardwalk, comfortable walking clothes and small backpacks, chatting with relaxed genuine smiles, candid horizontal travel photograph, no selfie stick or text, green foliage. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-02.webp"
+    },
+    {
+      "key": "review-03",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult woman with curly dark hair and a light linen outdoor shirt sitting on a dry rock beside a forest stream, smiling toward a friend outside the frame, soft dappled light and rainforest backdrop, candid horizontal travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-03.webp"
+    },
+    {
+      "key": "review-04",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional Malaysian family of two parents and one school-age child relaxing at a tropical garden rest stop after a nature walk, casual comfortable clothes, warm candid smiles, realistic natural skin texture, soft evening light, horizontal editorial photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-04.webp"
+    },
+    {
+      "key": "review-05",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult male traveller wearing a muted blue shirt and a forest-green hiking backpack, smiling quietly on a forest trail with mountains blurred in the distance, natural candid waist-up portrait, morning light, realistic anatomy and skin texture. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-05.webp"
+    },
+    {
+      "key": "review-06",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult woman with a loose sunhat in one hand standing on a quiet tropical beach at sunset, relaxed smile looking toward the sea, light cotton travel clothing, wind in her hair, warm soft candid horizontal travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-06.webp"
+    },
+    {
+      "key": "review-07",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult Southeast Asian couple seated comfortably on the bench of a small river cruise boat, both wearing orange life jackets, looking happily toward the rainforest bank, candid side view, calm water and forest background, horizontal travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-07.webp"
+    },
+    {
+      "key": "review-08",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult East Asian couple strolling barefoot along a tropical beach, relaxed modest casual holiday clothing, chatting and smiling, soft cloud-filtered afternoon light, turquoise sea, full natural bodies with accurate anatomy, horizontal candid photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-08.webp"
+    },
+    {
+      "key": "review-09",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult South Asian couple standing at a seaside lookout surrounded by tropical greenery, looking toward each other with relaxed smiles, comfortable travel clothes, warm morning light and ocean bokeh, waist-up horizontal candid travel photograph. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-09.webp"
+    },
+    {
+      "key": "review-10",
+      "prompt": "Use case: photorealistic-natural. Create ONE original landscape 3:2 editorial travel photograph for a Borneo tour website, full bleed, polished natural photography, realistic textures and anatomy. A fictional adult woman with a simple rust-coloured daypack pausing on a green mountain foothill trail, smiling toward the camera, distant misty Borneo-like mountains, practical hiking clothes, cool early morning light, horizontal editorial travel portrait. Original composition, not a recreation of an existing photograph. No collage, no borders, no text, no watermarks, no logos. All people are fictional illustrative travellers, not real customers.",
+      "file": "dist/assets/ai-review-10.webp"
+    }
+  ]
+}
