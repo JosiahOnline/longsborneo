@@ -12,7 +12,7 @@ const make=(title,desc,tour)=>`<!doctype html>
 fs.writeFileSync('dist/index.html',make('Go a Little Wild — Sabah Adventures','Explore 11 Longs Borneo packages: Sandakan heritage, Sepilok wildlife, Kinabatangan river cruises and Selingan Turtle Island. View current per-person prices and itineraries in English, Bahasa Malaysia or Chinese.'));
 for(const tour of window.TOURS){const dir=`dist/tours/${tour.id}`;fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(`${dir}/index.html`,make(tour.en.title,tour.en.short,tour));}
 fs.writeFileSync('dist/404.html',`<!doctype html><html lang="en"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found | Longs Borneo</title><link rel="stylesheet" href="${asset('styles.css')}"><main class="container section"><span class="eyebrow">LONGS BORNEO</span><h1>This trail ends here.</h1><p>Let's find your way back to Sabah.</p><a href="/" class="button">Explore our journeys</a></main></html>`);
-fs.writeFileSync('dist/robots.txt','User-agent: *\nDisallow: /\n');
+fs.writeFileSync('dist/robots.txt','User-agent: *\nAllow: /\n');
 console.log(`Wrote homepage, ${window.TOURS.length} tour pages and 404 page.`);
 
 // Retire the old sample routes while preserving useful incoming links.
